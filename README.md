@@ -1,12 +1,16 @@
-This repo contains the code for the BH Work Trial Task
-For more information on the market data, select the TBBO schema on this page: https://databento.com/datasets/XNAS.ITCH
+# Blockhouse Work Trial Repo
 
-If you are having issues with TA Lib, Try this:
+This repository consists of the following components:
 
-pip install ta-lib==0.4.0
+1. **Benchmarks** - Code for TWAP and VWAP strategies.
+2. **Cost Calculations** - Code for calculating various costs within the rewards component.
+3. **Datasets** - Example datasets that can be used for this process.
 
-pip install stable-baselines3==1.3.0
+## Folder Structure
+├── code
+  └── benchmarks.py # Code for TWAP and VWAP strategy
+  └── cost_components.py # Code for calculating transaction costs, slippage, etc. 
+├── data
+  └── datasets # Data files for training and testing your model
 
-If its still not working, you can ask GPT to code each of the technical indicators. 
 
-You do not have to create a transformer from scratch, feel free to use a pretrained model and fine tune it
