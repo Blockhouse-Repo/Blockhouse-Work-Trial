@@ -7,4 +7,10 @@ This repository consists of the following components:
 3. **Datasets** - Example datasets that can be used for this process.
 
 
+## Notes
+
+- You are encouraged to modify or extend the cost components code if needed.
+- Feel free to use any additional data or implement other logic as necessary.
+
+
 
